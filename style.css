@@ -1,0 +1,195 @@
+body {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  background-color: #152349;
+}
+
+.header-top {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu-item {
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.selectgorod {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-left: auto;
+}
+
+.carlist {
+  margin-top: 10px;
+  max-width: 1240px;
+  height: 500px;
+  margin: auto;
+  list-style-type: none;
+}
+
+.opisanie {
+  min-width: 850px;
+}
+
+.carlist-item {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.carlist-photo {
+  width: 255px;
+  height: 191px;
+  display: flex;
+}
+
+.carlist-name {
+  margin-left: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1;
+  color: #2f73b6;
+}
+
+a:after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #225384;
+  transition: width 0.4s ease-in-out;
+}
+
+a:hover:after,
+a:focus:after {
+  width: 100%;
+}
+
+a:hover {
+  color: #03b2d1;
+}
+
+.carlist-opisanie {
+  margin-left: 10px;
+}
+
+.span {
+  max-width: 600px;
+}
+
+.mestoobjav {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.prodavec {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.sum {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.probeg {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.prodavec-name {
+  margin-top: 50px;
+}
+
+.telepfon {
+  margin-top: 30px;
+}
+
+.centralconteiner {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.headopis {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.nazvanie {
+  display: inline-block;
+  min-width: 1000px;
+  font-size: 25px;
+}
+
+.cena {
+  display: inline-block;
+  min-width: 150px;
+  font-size: 25px;
+}
+
+.content {
+  max-width: 1240px;
+  position: relative;
+}
+
+td {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.imglist {
+  min-width: 800px;
+  float: right;
+}
+
+.opisanie-text {
+  margin-left: 440px;
+}
+
+.low {
+  background-color: #152349;
+  min-height: 60px;
+  width: 100%;
+}
